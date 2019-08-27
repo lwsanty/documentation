@@ -32,9 +32,10 @@ spec:
   triggers {
     GenericTrigger(
       genericVariables: [
-        [key: 'target', value: '$.target']
+        [key: 'target', value: '$.target'],
+        [key: 'script', value: '$.script']
       ],
-      token: 'update_languages',
+      token: 'update1',
       causeString: 'Triggered on $target',
 
       printContributedVariables: true,
