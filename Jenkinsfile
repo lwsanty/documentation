@@ -34,7 +34,7 @@ spec:
       genericVariables: [
         [key: 'target', value: '$.target']
       ],
-      token: 'update-languages',
+      token: 'update_languages',
       causeString: 'Triggered on $target',
 
       printContributedVariables: true,
